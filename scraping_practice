@@ -1,0 +1,5 @@
+from selenium import webdriver
+driver = webdriver.Chrome()
+url = 'https://techplay.jp/column/601'
+
+driver.get(url)
